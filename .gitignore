@@ -1,2 +1,7 @@
 node_modules
 .DS_Store
+sample_codes/.venv
+sample_codes/pyproject.toml
+sample_codes/poetry.lock
+sample_codes/.DS_Store
+.venv
