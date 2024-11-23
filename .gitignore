@@ -5,3 +5,7 @@ sample_codes/pyproject.toml
 sample_codes/poetry.lock
 sample_codes/.DS_Store
 .venv
+
+**/__pycache__/**
+
+memo/
