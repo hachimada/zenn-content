@@ -31,7 +31,7 @@ A2Aはエージェントの実装に関わらず、アージェント同志の�
 - Google ADK
 - LangGraph
 
-![demo-app](https://github.com/Nao-Y1996/zenn-content/tree/main/articles/images/a2a-demo/demo-app.png)
+![demo-app](https://github.com/Nao-Y1996/zenn-content/blob/main/articles/images/a2a-demo/demo-app.png?raw=true)
 
 ### エージェントの登録
 
@@ -39,13 +39,13 @@ A2Aはエージェントの実装に関わらず、アージェント同志の�
 
 アプリではIPアドレスを指定してリモートエージェントをできる画面があります。
 
-![add_agent](https://github.com/Nao-Y1996/zenn-content/tree/main/articles/images/a2a-demo/add_agent.png)
+![add_agent](https://github.com/Nao-Y1996/zenn-content/blob/main/articles/images/a2a-demo/add_agent.png?raw=true)
 
 CrewAIのエージェントは `localhost:8080`で起動したのでそれを入れてみます。
 
 以下のような情報が表示されました。
 
-![add-crewai-agent](https://github.com/Nao-Y1996/zenn-content/tree/main/articles/images/a2a-demo/add-crewai-agent.png)
+![add-crewai-agent](https://github.com/Nao-Y1996/zenn-content/blob/main/articles/images/a2a-demo/add-crewai-agent.png?raw=true)
 
 A2Aをサポートするリモートエージェントは、エージェントの能力/スキルと認証メカニズムを記述したAgent Card をJSON形式で公開する必要があります。ここでは、AgentCardの情報が表示されているようです。
 
@@ -101,17 +101,17 @@ Agent Card は <https://base-url/.well-known/agent.json> にホストするこ�
 
 となっています。
 
-![agents](https://github.com/Nao-Y1996/zenn-content/tree/main/articles/images/a2a-demo/agents.png)
+![agents](https://github.com/Nao-Y1996/zenn-content/blob/main/articles/images/a2a-demo/agents.png?raw=true)
 
 ### チャット
 
 デモアプリのチャット画面で何ができるか聞いてみました（1回目に聞いたときはリモートエージェントを登録する前です）。
 
-![shat-host-agent](https://github.com/Nao-Y1996/zenn-content/tree/main/articles/images/a2a-demo/chat-host-agent.png)
+![shat-host-agent](https://github.com/Nao-Y1996/zenn-content/blob/main/articles/images/a2a-demo/chat-host-agent.png?raw=true)
 
-画像生成を試しました（中身はgeminiですが）。プールの上を走る犬の画像が生成されました。
+画像生成を試しました（geminiで生成されるだけです）。プールの上を走る犬の画像が生成されました。
 
-![generated1](https://github.com/Nao-Y1996/zenn-content/tree/main/articles/images/a2a-demo/generated_1.png)
+![generated1](https://github.com/Nao-Y1996/zenn-content/blob/main/articles/images/a2a-demo/generated_1.png?raw=true)
 
 ### イベントリスト
 
@@ -119,4 +119,4 @@ Agent Card は <https://base-url/.well-known/agent.json> にホストするこ�
 下から2番目のイベントを見ると画像生成のタスクがImage Ggenerator Agentに渡されていることがわかります。
 （Actorがhost_agentになっているのは気になりますが）
 
-![event-list](https://github.com/Nao-Y1996/zenn-content/tree/main/articles/images/a2a-demo/event-list.png)
+![event-list](https://github.com/Nao-Y1996/zenn-content/blob/main/articles/images/a2a-demo/event-list.png?raw=true)
