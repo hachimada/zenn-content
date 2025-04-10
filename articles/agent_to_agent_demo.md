@@ -2,7 +2,7 @@
 title: "A2A(Agent2Agent Protocol)デモを試す"
 emoji: "🤖"
 type: "tech" # tech: 技術記事 / idea: アイデア
-topics: []
+topics: ["aiエージェント", "A2A", "Agent2Agent"]
 published: false
 ---
 
