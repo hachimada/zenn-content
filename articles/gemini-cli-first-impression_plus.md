@@ -30,7 +30,7 @@ Gemini CLIは、オープンソースのターミナル（コマンドライン�
 
 `/tools`と入力することで、Gemini CLIが利用可能なツールの一覧を表示できます。
 
-![alt text](/images/gemini-cli-first-impression/tools.png)
+![alt text](/images/gemini-cli-first-impression_plus/tools.png)
 
 ファイルの読み書き、シェルコマンドの実行、検索を行うためのツールなど、様々なツールが用意されています。
 
@@ -38,7 +38,7 @@ Gemini CLIは、オープンソースのターミナル（コマンドライン�
 
 Claude Codeは web検索が弱かったですが、さすが検索の大本命のGoogleといったところでしょうか、しっかりツールとして用意されています。
 
-![alt text](/images/gemini-cli-first-impression/image-3.png)
+![alt text](/images/gemini-cli-first-impression_plus/image-3.png)
 
 東京の天気を聞いてみました。
 
@@ -52,7 +52,7 @@ Claude Codeは web検索が弱かったですが、さすが検索の大本命�
 
 ブラウザでの検索では上位に出てきてすぐに見つかる情報なのですが。
 
-![alt text](/images/gemini-cli-first-impression/error.png)
+![alt text](/images/gemini-cli-first-impression_plus/error.png)
 
 429の原因は、[こちらの記事](https://blog.g-gen.co.jp/entry/error-code-429-with-gemini)では以下のように説明されています。
 
@@ -60,13 +60,13 @@ Claude Codeは web検索が弱かったですが、さすが検索の大本命�
 
 Githubには同様のエラーの[issue](https://github.com/google-gemini/gemini-cli/issues?q=is%3Aissue%20state%3Aopen%20429)がいくつか上がっていました。
 
-![alt text](/images/gemini-cli-first-impression/issue.png)
+![alt text](/images/gemini-cli-first-impression_plus/issue.png)
 
 ### 基本のコマンド
 
 `/help`でコマンドを確認できます。
 
-![alt text](/images/gemini-cli-first-impression/image-1.png)
+![alt text](/images/gemini-cli-first-impression_plus/image-1.png)
 
 いろいろありますが、いくつかピックアップします。
 
@@ -76,7 +76,7 @@ Githubには同様のエラーの[issue](https://github.com/google-gemini/gemini
 
 `@`と入力すると、候補となるパスを表示してくれるので、そこから選択できます。
 
-![alt text](/images/gemini-cli-first-impression/image.png)
+![alt text](/images/gemini-cli-first-impression_plus/image.png)
 
 #### 2. シェルコマンドの実行
 
@@ -84,18 +84,18 @@ Githubには同様のエラーの[issue](https://github.com/google-gemini/gemini
 
 シェルモードでは、通常のシェルコマンドを入力して実行できます。
 
-![alt text](/images/gemini-cli-first-impression/shell_mode.png)
+![alt text](/images/gemini-cli-first-impression_plus/shell_mode.png)
 
 こちらは通常の対話モードです。
 
-![alt text](/images/gemini-cli-first-impression/normal_mode.png)
+![alt text](/images/gemini-cli-first-impression_plus/normal_mode.png)
 
 色が変わって見やすいですね。
 
 しかし、**シェルモードはステートレスのようです。** そのためシェルモードで `cd` コマンドを実行してディレクトリを移動しても、次のコマンドでは元のディレクトリで実行されます。（実質的に移動できません）
 そのため、シェルモードでの操作は一時的な操作に限られるようです。
 
-![alt text](/images/gemini-cli-first-impression/image-2.png)
+![alt text](/images/gemini-cli-first-impression_plus/image-2.png)
 
 #### 3. MCP 連携
 
